@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: beans,mappings
+server:
+  port: 9090
